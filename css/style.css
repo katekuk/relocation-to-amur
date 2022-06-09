@@ -1,8 +1,7 @@
 body {
   font-family: "Verdana", "Geneva", sans-serif;
+  width: 100%;
 }
-
-
 
 .menu {
   position: absolute;
@@ -31,7 +30,7 @@ body {
   margin-top: 8px;
   padding: 0;
   float: right;
-  margin-left: 125px;
+  margin-left: 85px;
   display: inline;
 }
 
@@ -46,16 +45,38 @@ body {
 
 .header {
   /* position: absolute;*/
-  padding-top: 240px;
   height: 800px;
   left: 0px;
   top: 60px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(mur-amur11.jpg);
+  padding-top: 240px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(mur-amur1111.jpg);
   background-repeat: no-repeat;
 }
 
 .header h1 {
   color: #FFFFFF;
-  font-size: 50px;
+  font-size: 55px;
+  font-weight: normal;
+
+  margin-left: 155px;
+}
+
+.header p {
+  color: #FFFFFF;
+  font-size: 28px;
   font-weight: lighter;
+  margin-left: 155px;
+}
+
+.header button {
+  background-color: #B09773;
+  color: #FFFFFF;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 0;
+  height: 50px;
+  width: 230px;
+  padding: auto;
+  margin-top: 85px;
+  margin-left: 155px;
 }
