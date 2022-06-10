@@ -1,6 +1,24 @@
 body {
   font-family: "Verdana", "Geneva", sans-serif;
   width: 100%;
+  margin: 0;
+  background: #E5E5E5;
+  color: #575757;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+h2 {
+  color: #526762;
+  font-size: 32px;
+  line-height: 42px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-left: 155px;
 }
 
 .menu {
@@ -48,7 +66,6 @@ body {
   height: 800px;
   left: 0px;
   top: 60px;
-  padding-top: 240px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(mur-amur1111.jpg);
   background-repeat: no-repeat;
 }
@@ -57,15 +74,14 @@ body {
   color: #FFFFFF;
   font-size: 55px;
   font-weight: normal;
-
-  margin-left: 155px;
+  padding-top: 240px;
 }
 
 .header p {
   color: #FFFFFF;
   font-size: 28px;
   font-weight: lighter;
-  margin-left: 155px;
+
 }
 
 .header button {
@@ -78,5 +94,60 @@ body {
   width: 230px;
   padding: auto;
   margin-top: 85px;
-  margin-left: 155px;
+}
+
+.about-project__container {
+  padding-top: 100px;
+}
+
+.about-project h2 {
+  float: left;
+  padding-right: 213px;
+  padding-bottom: 370px;
+}
+
+.exhibits__container {
+  padding-top: 130px;
+}
+
+.exhibits h2{
+  margin-bottom: 44px;
+}
+
+.exhibits__item img {
+  height: 380px;
+  width: 350px;
+}
+
+.downloads {
+  background-color: #526762;
+  color: #FFFFFF;
+}
+
+.downloads__container {
+  padding-top: 65px;
+  padding-bottom: 65px;
+}
+
+.downloads .left {
+  float: left;
+}
+
+.downloads h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+
+}
+
+.downloads a {
+  font-size: 16px;
+  line-height: 24px;
+
+}
+
+.downloads p {
+  font-size: 18px;
+  line-height: 27px;
+
 }
